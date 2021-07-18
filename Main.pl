@@ -74,18 +74,4 @@ foreach my $section (keys %{$configSettings}) {
 
 
 
- 
-#print $rp->get('title') . " " . $rp->get('url') . " " . $rp->get('description') . "\n";
- 
-for (my $i = 0; $i < $rp->count(); $i++) {
-        my $it = $rp->get($i);
-        print $it->get('title') . " " . $it->get('url')."\n";
-        
-        #some RSSv2.0 optional parameters may have been set:
-        
-        if (defined $it->get('pubDate')) { 
-        	print "publication date found: " . $it->get('pubDate')."\n"; 
-        }
-}
-
 
