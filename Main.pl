@@ -23,8 +23,8 @@ use strict;
 use XML::RSS::Parser::Lite;
 use LWP::Protocol::https;
 use LWP::Simple;
-require "/home/pak/Dropbox/code/gabbro/Db/DbOps.pm";
-require "/home/pak/Dropbox/code/gabbro/File/FileOps.pm";
+require "/home/ben/code/gabbro/Db/DbOps.pm";
+require "/home/ben/code/gabbro/File/FileOps.pm";
 
 #Connect to the database
 my $conn = DbOps::connect();
